@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Strength",
+    "description": "Focuses on increasing muscle strength by lifting heavy weights with fewer repetitions."
+  },
+  {
+    "name": "Hypertrophy",
+    "description": "Aims to increase muscle size by performing moderate weights with moderate repetitions."
+  },
+  {
+    "name": "HIIT",
+    "description": "High-Intensity Interval Training that improves cardiovascular fitness and burns fat through short bursts of intense exercise followed by rest periods."
+  },
+  {
+    "name": "Endurance",
+    "description": "Targets improving muscle endurance and cardiovascular stamina by performing exercises with higher repetitions and lower weights or moderate intensity over longer durations."
+  },
+  {
+    "name": "Flexibility",
+    "description": "Focuses on increasing the range of motion in the joints and muscles through stretching exercises and flexibility training."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Developer",
+    "description": "Người nắm quyền quản lý cao nhất của hệ thống, phát triển hệ thống",
+    "permissionsDetail": [
+      "Xây dựng và duy trì mã nguồn của hệ thống.",
+      "Triển khai các tính năng mới và sửa lỗi.",
+      "Quản lý các phiên bản và môi trường phát triển."
+    ]
+  },
+  {
+    "name": "Moderator",
+    "description": "Người nắm quyền quản lý cao nhất của hệ thống.",
+    "permissionsDetail": [
+      "Kiểm soát nội dung do người dùng tạo ra.",
+      "Xử lý các vi phạm và báo cáo.",
+      "Duy trì sự ổn định và trật tự trong hệ thống."
+    ]
+  },
+  {
+    "name": "Administrator",
+    "description": "Người quản trị dữ liệu của hệ thống",
+    "permissionsDetail": [
+      "Quản lý cơ sở dữ liệu và quyền truy cập dữ liệu.",
+      "Thiết lập và duy trì các chính sách bảo mật.",
+      "Xử lý sao lưu và phục hồi dữ liệu."
+    ]
+  },
+  {
+    "name": "Manager",
+    "description": "Người quản lý cấp cao của mỗi tổ chức.",
+    "permissionsDetail": [
+      "Xem và cập nhật thông tin cá nhân.",
+      "Quản lý thông tin công ty đối tác.",
+      "Quản lý và phân quyền cho nhân viên của công ty đối tác.",
+      "Xem và quản lý các dự án hoặc hoạt động liên quan đến công ty đối tác trong hệ thống.",
+      "Xem báo cáo và thống kê liên quan đến hoạt động của công ty đối tác."
+    ]
+  },
+  {
+    "name": "Trainer",
+    "description": "Người dùng đã đăng ký tài khoản và đăng nhập để sử dụng ứng dụng.",
+    "permissionsDetail": [
+      "Truy cập các khoá học và tài liệu đào tạo.",
+      "Theo dõi tiến độ học tập của học viên.",
+      "Tạo và quản lý các khoá học trực tuyến."
+    ]
+  },
+  {
+    "name": "Client",
+    "description": "Người dùng đã được tạo tài khoản và đăng nhập để sử dụng ứng dụng.",
+    "permissionsDetail": [
+      "Truy cập và sử dụng các dịch vụ của hệ thống.",
+      "Xem và cập nhật thông tin cá nhân.",
+      "Tham gia vào các hoạt động và dự án của hệ thống."
+    ]
+  }
+]

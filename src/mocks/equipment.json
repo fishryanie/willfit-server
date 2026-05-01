@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Body Weight",
+    "picture": "",
+    "description": "No equipment required. Exercises can be performed using bodyweight only."
+  },
+  {
+    "name": "Battle Ropes",
+    "picture": "",
+    "description": "Heavy ropes used for high-intensity interval training, improving overall strength and endurance."
+  },
+  {
+    "name": "Punching Bag",
+    "picture": "",
+    "description": "A heavy bag used for boxing and kickboxing training, enhancing upper body strength and endurance."
+  },
+  {
+    "name": "Dumbbells",
+    "picture": "",
+    "description": "A pair of small hand-held weights used for resistance training."
+  },
+  {
+    "name": "Barbell",
+    "picture": "",
+    "description": "A long bar with weights attached at each end, used in weightlifting."
+  },
+  {
+    "name": "Kettlebell",
+    "picture": "",
+    "description": "A round weight with a handle, used for swinging and lifting exercises."
+  },
+  {
+    "name": "Resistance Bands",
+    "picture": "",
+    "description": "Elastic bands used for strength training, stretching, and rehabilitation exercises."
+  },
+  {
+    "name": "Yoga Mat",
+    "picture": "",
+    "description": "A padded mat used for yoga, stretching, and floor exercises."
+  },
+  {
+    "name": "Medicine Ball",
+    "picture": "",
+    "description": "A weighted ball used for strength training and conditioning exercises."
+  },
+  {
+    "name": "Exercise Ball",
+    "picture": "",
+    "description": "A large, inflatable ball used for balance, core strength, and stability exercises."
+  },
+  {
+    "name": "Cable Crossover Machine",
+    "picture": "",
+    "description": "A machine with adjustable cables for performing a wide range of exercises targeting the chest, back, and arms."
+  },
+  {
+    "name": "Smith Machine",
+    "picture": "",
+    "description": "A weightlifting machine with a barbell that moves along a fixed vertical path for safety."
+  },
+  {
+    "name": "Treadmill",
+    "picture": "",
+    "description": "A machine used for walking or running in place."
+  },
+  {
+    "name": "Recumbent Stepper",
+    "picture": "",
+    "description": "A seated stepping machine that combines the benefits of a stepper and a recumbent bike, providing a low-impact cardio workout."
+  },
+  {
+    "name": "Vertical Climber",
+    "picture": "",
+    "description": "A machine that simulates vertical climbing, offering a full-body workout that targets the legs, arms, and core."
+  },
+  {
+    "name": "Jacobs Ladder",
+    "picture": "",
+    "description": "A cardio machine featuring moving rungs that simulate climbing a ladder, providing a high-intensity, low-impact workout."
+  },
+  {
+    "name": "Stair Climber",
+    "picture": "",
+    "description": "A machine that simulates climbing stairs, targeting the leg and glute muscles for an effective cardio workout."
+  },
+  {
+    "name": "Fan Bike",
+    "picture": "",
+    "description": "A type of stationary bike with large, fan-like blades that provide resistance. The harder you pedal, the more resistance is created by the fan, offering a full-body workout."
+  },
+  {
+    "name": "Upright Bike",
+    "picture": "",
+    "description": "A type of stationary bike where the rider sits upright, similar to a traditional bicycle. It mimics the experience of outdoor cycling."
+  },
+  {
+    "name": "Recumbent Bike",
+    "picture": "",
+    "description": "A type of stationary bike with a reclining seat and backrest, allowing the rider to sit in a more relaxed, laid-back position. Provides more comfort and reduces stress on the back and knees."
+  },
+  {
+    "name": "Air Rowing Machine",
+    "picture": "",
+    "description": "A type of rowing machine that uses air resistance to simulate the feeling of rowing on water. The machine has a flywheel with air resistance, which adjusts the level of resistance based on the intensity of the rowing stroke, providing a smooth and effective full-body workout."
+  },
+  {
+    "name": "Ski Ergometer",
+    "picture": "",
+    "description": "A machine designed to simulate cross-country skiing movements. It provides a full-body workout by using handles or poles to mimic the action of skiing, focusing on both upper and lower body strength and cardio fitness. Often used for endurance training and improving skiing technique."
+  }
+]

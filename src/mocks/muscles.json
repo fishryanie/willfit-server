@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c88"
+  },
+  "name": "Hamstrings",
+  "description": "A group of muscles located at the back of the thigh, responsible for bending the knee and extending the hip.",
+  "category": {
+    "$oid": "67720a6703f02827b8673492"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737035040910"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c93"
+  },
+  "name": "Gastrocnemius",
+  "description": "The main muscle of the calf, responsible for plantar flexing the foot and bending the knee.",
+  "category": {
+    "$oid": "67720a6703f02827b8673497"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042823864"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c85"
+  },
+  "name": "Biceps",
+  "description": "A muscle located in the upper arm, responsible for flexing the elbow.",
+  "category": {
+    "$oid": "67720a6703f02827b8673491"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042492005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c86"
+  },
+  "name": "Triceps",
+  "description": "A muscle located at the back of the upper arm, responsible for extending the elbow.",
+  "category": {
+    "$oid": "67720a6703f02827b8673491"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042501329"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c89"
+  },
+  "name": "Glutes",
+  "description": "A group of muscles in the buttocks, responsible for hip extension, abduction, and rotation.",
+  "category": {
+    "$oid": "67720a6703f02827b8673492"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042794830"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c8a"
+  },
+  "name": "Rectus Abdominis",
+  "description": "The muscle group known as the 'six-pack,' located in the abdomen, responsible for flexing the spine.",
+  "category": {
+    "$oid": "67720a6703f02827b8673493"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042607267"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c8b"
+  },
+  "name": "Obliques",
+  "description": "Muscles located on the sides of the abdomen, responsible for rotating and bending the torso.",
+  "category": {
+    "$oid": "67720a6703f02827b8673493"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042811597"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c8c"
+  },
+  "name": "Pectoralis Major",
+  "description": "The large muscle in the chest, responsible for the movement of the shoulder joint, such as pushing movements.",
+  "category": {
+    "$oid": "67720a6703f02827b8673494"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042577687"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c91"
+  },
+  "name": "Deltoids",
+  "description": "The shoulder muscles responsible for the abduction and rotation of the arm.",
+  "category": {
+    "$oid": "67720a6703f02827b8673496"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042513516"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c94"
+  },
+  "name": "Soleus",
+  "description": "A muscle in the calf, located beneath the gastrocnemius, responsible for plantar flexion of the foot.",
+  "category": {
+    "$oid": "67720a6703f02827b8673497"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042630764"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c87"
+  },
+  "name": "Quadriceps",
+  "description": "A group of muscles located at the front of the thigh, responsible for extending the knee.",
+  "category": {
+    "$oid": "67720a6703f02827b8673492"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042785350"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c8d"
+  },
+  "name": "Pectoralis Minor",
+  "description": "A smaller chest muscle beneath the pectoralis major, responsible for stabilizing the scapula.",
+  "category": {
+    "$oid": "67720a6703f02827b8673494"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042666266"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c8e"
+  },
+  "name": "Latissimus Dorsi",
+  "description": "The large muscle in the back, responsible for moving the arms, shoulders, and back.",
+  "category": {
+    "$oid": "67720a6703f02827b8673495"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042643716"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c92"
+  },
+  "name": "Rotator Cuff",
+  "description": "A group of muscles and tendons in the shoulder, responsible for stabilizing and rotating the shoulder joint.",
+  "category": {
+    "$oid": "67720a6703f02827b8673496"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042768481"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c8f"
+  },
+  "name": "Trapezius",
+  "description": "A muscle extending from the neck to the mid-back, responsible for moving and stabilizing the shoulder blades.",
+  "category": {
+    "$oid": "67720a6703f02827b8673495"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042639590"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "676ccc416471b072531d6c90"
+  },
+  "name": "Rhomboids",
+  "description": "Muscles located between the shoulder blades, responsible for retracting the scapula.",
+  "category": {
+    "$oid": "67720a6703f02827b8673495"
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1737042683165"
+    }
+  }
+}]

@@ -1,0 +1,87 @@
+[
+  {
+    "_id": {
+      "$oid": "67586e348d0809fbf230b01e"
+    },
+    "name": "ACTIVE",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1733848628889"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1733848628889"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67586e3a8d0809fbf230b020"
+    },
+    "name": "INACTIVE",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1733848634350"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1733848634350"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67586e428d0809fbf230b022"
+    },
+    "name": "SUSPENDED",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1733848642498"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1733848642498"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67586e478d0809fbf230b024"
+    },
+    "name": "PENDING_VERIFICATION",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1733848647658"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1733848647658"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67586e538d0809fbf230b026"
+    },
+    "name": "BANNED",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1733848659551"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1733848659551"
+      }
+    },
+    "__v": 0
+  }
+]

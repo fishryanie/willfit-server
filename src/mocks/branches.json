@@ -1,0 +1,261 @@
+[{
+  "_id": {
+    "$oid": "67588fd6fac4945f33d2a618"
+  },
+  "address": "1121 Bedford Avenue Brooklyn, NY 11216",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "Bedford-Stuyvesant YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "718-789-1497",
+  "type": "Brooklyn",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857238572"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857238572"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67589021fac4945f33d2a61c"
+  },
+  "address": "651 Broadway Staten Island, NY 10310",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "Broadway YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "718-981-4933",
+  "type": "Staten Island",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857313848"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857313848"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67589047fac4945f33d2a620"
+  },
+  "address": "2 Castle Hill Avenue Bronx, NY 10473",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "Castle Hill YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "212-912-2490",
+  "type": "Bronx",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857351226"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857351226"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67589070fac4945f33d2a624"
+  },
+  "address": "273 Bowery New York, NY 100023",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "Chinatown YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "212-912-2460",
+  "type": "Manhattan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857392247"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857392247"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67589090fac4945f33d2a628"
+  },
+  "address": "2980 West 29th Street Brooklyn, NY 11224",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "Coney Island YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "718-215-6900",
+  "type": "Brooklyn",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857424887"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857424887"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "675890bcfac4945f33d2a62c"
+  },
+  "address": "238-10 Hillside Avenue Bellerose, NY 11426",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "Cross Island YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "718-551-9300",
+  "type": "Queens",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857468727"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857468727"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67589125fac4945f33d2a630"
+  },
+  "address": "3939 Richmond Avenue Staten Island, NY 10312",
+  "capacity": 10,
+  "locationId": {
+    "$oid": "6758715c82add1e298d057d3"
+  },
+  "name": "South Shore YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "718-227-3200",
+  "type": "Staten Island",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733857573581"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733857573581"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "675893620f62c84efadaf93b"
+  },
+  "address": "500 W Hopocan Ave, Barberton, OH 44203",
+  "capacity": 8,
+  "locationId": {
+    "$oid": "6758717582add1e298d057d9"
+  },
+  "name": "Lake Anna YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "(330) 745-9622",
+  "type": "camp",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733858146266"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733858146266"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6758938a0f62c84efadaf93f"
+  },
+  "address": "350 E Wilbeth Rd, Akron, OH 44301",
+  "capacity": 8,
+  "locationId": {
+    "$oid": "6758717582add1e298d057d9"
+  },
+  "name": "Firestone Park YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "(330) 724-1255",
+  "type": "camp",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733858186664"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733858186664"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "675893b60f62c84efadaf943"
+  },
+  "address": "544 Broad Blvd, Cuyahoga Falls, OH 44221",
+  "capacity": 8,
+  "locationId": {
+    "$oid": "6758717582add1e298d057d9"
+  },
+  "name": "Riverfront YMCA",
+  "organizationId": {
+    "$oid": "675878056664fba284aba443"
+  },
+  "phone": "(330) 923-9622",
+  "type": "camp",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1733858230636"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1733858230636"
+    }
+  },
+  "__v": 0
+}]

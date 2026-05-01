@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Compound",
+    "description": "Exercises that involve multiple muscle groups and joints, typically focusing on overall strength and coordination."
+  },
+  {
+    "name": "Isolation",
+    "description": "Exercises that target a single muscle group or joint, aiming to isolate and strengthen specific muscles."
+  },
+  {
+    "name": "Isometric",
+    "description": "Exercises where muscles are engaged and held in a static position without any movement of the joint."
+  },
+  {
+    "name": "Plyometric",
+    "description": "Exercises that involve explosive movements to improve strength, speed, and power, often using jumps or rapid changes in direction."
+  },
+  {
+    "name": "Cardio",
+    "description": "Exercises that increase cardiovascular endurance through activities like running, cycling, or swimming."
+  }
+]

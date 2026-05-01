@@ -1,0 +1,26 @@
+[
+  {
+    "name": "HEALTH_CLUB",
+    "description": "Commercial fitness centers"
+  },
+  {
+    "name": "MEDICAL",
+    "description": "Hospitals and medical facilities"
+  },
+  {
+    "name": "REHAB",
+    "description": "Rehabilitation centers"
+  },
+  {
+    "name": "CORPORATE",
+    "description": "Corporate wellness programs"
+  },
+  {
+    "name": "EDUCATION",
+    "description": "Educational institutions"
+  },
+  {
+    "name": "GOVERNMENT",
+    "description": "Government facilities"
+  }
+]
