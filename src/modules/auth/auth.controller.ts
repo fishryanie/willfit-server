@@ -3,7 +3,7 @@ import { ApiBearerAuth, ApiTags } from '@nestjs/swagger'
 import type { Request } from 'express'
 import { JwtAuthGuard } from 'modules/shared/auth.guard'
 import { type CrudListQuery } from 'modules/shared/crud.service'
-import { AuthLoginBody, ChangePasswordBody, LookupBody, RefreshTokenBody } from 'modules/shared/swagger-body'
+import { AuthLoginBody, ChangePasswordBody, LookupBody, RefreshTokenBody, SocialLoginBody } from 'modules/shared/swagger-body'
 import { AuthService } from './auth.service'
 
 const userId = (req: Request) => (req as TokenVerifiedRequest).tokenVerified?.userId?.toString() || ''
@@ -18,6 +18,19 @@ export class AuthController {
   login(@Body() body: Record<string, unknown>) {
     return this.authService.login(body)
   }
+
+  @Post('login/google')
+  @SocialLoginBody()
+  loginGoogle(@Body() body: Record<string, unknown>) {
+    return this.authService.loginGoogle(body)
+  }
+
+  @Post('login/apple')
+  @SocialLoginBody()
+  loginApple(@Body() body: Record<string, unknown>) {
+    return this.authService.loginApple(body)
+  }
+
   @Post('refresh')
   @RefreshTokenBody()
   refresh(@Body() body: Record<string, unknown>) {

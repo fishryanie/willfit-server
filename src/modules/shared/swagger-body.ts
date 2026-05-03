@@ -2,8 +2,8 @@ import { ApiBody } from '@nestjs/swagger'
 
 type JsonObject = Record<string, unknown>
 
-const objectBody = (description: string, example: JsonObject) =>
-  ApiBody({
+const objectBody = (description: string, example: JsonObject) => {
+  return ApiBody({
     description,
     schema: {
       type: 'object',
@@ -11,11 +11,33 @@ const objectBody = (description: string, example: JsonObject) =>
       example
     }
   })
+}
 
 export const AuthLoginBody = () =>
   objectBody('Login credentials', {
     username: 'client@example.com',
     password: 'Password@123',
+    expoPushToken: 'ExpoPushToken[xxxxxxxxxxxxxxxxxxxxxx]'
+  })
+
+export const SocialLoginBody = () =>
+  objectBody('Social login payload', {
+    idToken: 'provider-id-token',
+    identityToken: 'apple-identity-token',
+    data: {
+      idToken: 'google-id-token',
+      user: {
+        email: 'user@example.com',
+        name: 'Nguyen Van A',
+        givenName: 'Nguyen',
+        familyName: 'Van A'
+      }
+    },
+    email: 'user@example.com',
+    fullName: {
+      givenName: 'Nguyen',
+      familyName: 'Van A'
+    },
     expoPushToken: 'ExpoPushToken[xxxxxxxxxxxxxxxxxxxxxx]'
   })
 

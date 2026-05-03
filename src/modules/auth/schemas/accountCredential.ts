@@ -23,6 +23,13 @@ export class AccountToken implements IAccountToken {
 
   @Prop({ type: String, required: true })
   password!: string
+
+  @Prop({ type: String, required: false, default: 'password', index: true })
+  authProvider?: string
+
+  @Prop({ type: String, required: false, index: true })
+  providerSubject?: string
 }
 
 export const accountTokenSchema = SchemaFactory.createForClass(AccountToken)
+accountTokenSchema.index({ authProvider: 1, providerSubject: 1 })

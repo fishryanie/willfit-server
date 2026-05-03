@@ -45,6 +45,10 @@ export default registerAs('app', () => ({
     secret: process.env.JWT_SECRET,
     refreshSecret: process.env.JWT_REFRESH_SECRET
   },
+  socialAuth: {
+    googleClientIds: splitCsv(process.env.GOOGLE_CLIENT_IDS || process.env.GOOGLE_CLIENT_ID) || [],
+    appleClientIds: splitCsv(process.env.APPLE_CLIENT_IDS || process.env.APPLE_CLIENT_ID || process.env.APPLE_BUNDLE_ID) || []
+  },
   cache: {
     ttl: numberFromEnv('CACHE_TTL_MS', 30_000),
     max: numberFromEnv('CACHE_MAX_ITEMS', 500)

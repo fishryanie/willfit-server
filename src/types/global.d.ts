@@ -76,6 +76,8 @@ interface IAccountToken {
   username: string
   password: string
   fcmToken: string
+  authProvider?: string
+  providerSubject?: string
 }
 interface Message {
   message: string
