@@ -16,6 +16,9 @@
     "noEmit": true,
 
     "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
 

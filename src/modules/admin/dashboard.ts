@@ -1,13 +1,6 @@
 import type { PageHandler } from 'adminjs'
-import { userModel } from 'modules/accounts/models/user'
-import { conversationModel, messageModel } from 'modules/chat/models'
-import { clientModel } from 'modules/client/models'
-import { articleModel, contactModel, notifyModel } from 'modules/common/models'
-import { notificationInboxModel } from 'modules/notifications/models/notificationInbox'
-import { pushDeviceModel } from 'modules/notifications/models/pushDevice'
-import { orgBranchModel, orgModel } from 'modules/organization/models'
-import { trainerModel } from 'modules/trainer/models'
-import { workoutSessionModel } from 'modules/workout/schema'
+import type { Connection, Model } from 'mongoose'
+import { MODEL_NAMES } from 'modules/database/model-registry'
 
 type TimestampedContact = IContact & {
   _id: unknown
@@ -31,7 +24,23 @@ const createMetric = (label: string, value: number, helper: string, tone: string
   tone
 })
 
-export const dashboardHandler: PageHandler = async () => {
+const model = (connection: Connection, name: string) => connection.model(name) as Model<any>
+
+export const createDashboardHandler = (connection: Connection): PageHandler => async () => {
+  const userModel = model(connection, MODEL_NAMES.user)
+  const clientModel = model(connection, MODEL_NAMES.client)
+  const trainerModel = model(connection, MODEL_NAMES.trainer)
+  const workoutSessionModel = model(connection, MODEL_NAMES.workoutSession)
+  const orgModel = model(connection, MODEL_NAMES.organization)
+  const orgBranchModel = model(connection, MODEL_NAMES.organizationBranch)
+  const articleModel = model(connection, MODEL_NAMES.article)
+  const notifyModel = model(connection, MODEL_NAMES.notification)
+  const pushDeviceModel = model(connection, MODEL_NAMES.pushDevice)
+  const contactModel = model(connection, MODEL_NAMES.contact)
+  const messageModel = model(connection, MODEL_NAMES.message)
+  const conversationModel = model(connection, MODEL_NAMES.conversation)
+  const notificationInboxModel = model(connection, MODEL_NAMES.notificationInbox)
+
   const [
     totalUsers,
     totalClients,

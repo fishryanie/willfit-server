@@ -1,40 +1,9 @@
-import { adminModel } from 'modules/accounts/models/admin'
-import { staffModel } from 'modules/accounts/models/staff'
-import { userModel } from 'modules/accounts/models/user'
-import { assessmentModel } from 'modules/assessment/models'
-import { accountRoleModel, accountStatusModel, accountTokenModel, refreshTokenModel } from 'modules/auth/models'
-import { conversationModel, messageModel } from 'modules/chat/models'
-import { clientModel } from 'modules/client/models'
-import {
-  articleCategoriesModel,
-  articleModel,
-  contactModel,
-  courseModel,
-  guideModel,
-  newsModel,
-  notifyModel,
-  planModel,
-  scheduleModel,
-  statesModel
-} from 'modules/common/models'
-import { notificationInboxModel } from 'modules/notifications/models/notificationInbox'
-import { pushDeviceModel } from 'modules/notifications/models/pushDevice'
-import { orgBranchModel, orgCategoryModel, orgModel } from 'modules/organization/models'
-import { trainerModel } from 'modules/trainer/models'
-import {
-  equipmentModel,
-  exerciseCategoriesModel,
-  exerciseGoalModel,
-  exerciseLevelModel,
-  exerciseModel,
-  muscleCategoriesModel,
-  muscleModel,
-  workoutSessionModel
-} from 'modules/workout/schema'
+import type { Connection, Model } from 'mongoose'
+import { MODEL_NAMES } from 'modules/database/model-registry'
 
 const navigation = (name: string) => ({ name })
 
-const resource = (model: unknown, group: string, options: Record<string, unknown> = {}) => ({
+const resource = (model: Model<unknown>, group: string, options: Record<string, unknown> = {}) => ({
   resource: model as any,
   options: {
     navigation: navigation(group),
@@ -51,111 +20,115 @@ const hiddenSecret = {
   }
 }
 
-const adminModels = [
-  userModel,
-  adminModel,
-  staffModel,
-  accountTokenModel,
-  refreshTokenModel,
-  accountRoleModel,
-  accountStatusModel,
-  clientModel,
-  trainerModel,
-  orgModel,
-  orgBranchModel,
-  orgCategoryModel,
-  workoutSessionModel,
-  exerciseModel,
-  equipmentModel,
-  exerciseGoalModel,
-  exerciseLevelModel,
-  exerciseCategoriesModel,
-  muscleModel,
-  muscleCategoriesModel,
-  assessmentModel,
-  conversationModel,
-  messageModel,
-  notifyModel,
-  notificationInboxModel,
-  pushDeviceModel,
-  planModel,
-  articleModel,
-  articleCategoriesModel,
-  newsModel,
-  courseModel,
-  guideModel,
-  scheduleModel,
-  statesModel,
-  contactModel
-]
+const model = (connection: Connection, name: string) => connection.model(name) as Model<unknown>
 
-adminModels.forEach((model) => {
-  Object.values(model.schema.paths).forEach((schemaPath) => {
-    const path = schemaPath as typeof schemaPath & {
-      caster?: unknown
-      embeddedSchemaType?: unknown
-      instance?: string
-    }
-    if (path.instance === 'Array' && !path.caster && path.embeddedSchemaType) {
-      path.caster = path.embeddedSchemaType
-    }
+export const getAdminResources = (connection: Connection) => {
+  const models = {
+    user: model(connection, MODEL_NAMES.user),
+    admin: model(connection, MODEL_NAMES.admin),
+    staff: model(connection, MODEL_NAMES.staff),
+    accountToken: model(connection, MODEL_NAMES.accountToken),
+    refreshToken: model(connection, MODEL_NAMES.refreshToken),
+    accountRole: model(connection, MODEL_NAMES.accountRole),
+    accountStatus: model(connection, MODEL_NAMES.accountStatus),
+    client: model(connection, MODEL_NAMES.client),
+    trainer: model(connection, MODEL_NAMES.trainer),
+    org: model(connection, MODEL_NAMES.organization),
+    orgBranch: model(connection, MODEL_NAMES.organizationBranch),
+    orgCategory: model(connection, MODEL_NAMES.organizationCategory),
+    workoutSession: model(connection, MODEL_NAMES.workoutSession),
+    exercise: model(connection, MODEL_NAMES.exercise),
+    equipment: model(connection, MODEL_NAMES.equipment),
+    exerciseGoal: model(connection, MODEL_NAMES.exerciseGoal),
+    exerciseLevel: model(connection, MODEL_NAMES.exerciseLevel),
+    exerciseCategory: model(connection, MODEL_NAMES.exerciseCategory),
+    muscle: model(connection, MODEL_NAMES.muscle),
+    muscleCategory: model(connection, MODEL_NAMES.muscleCategory),
+    assessment: model(connection, MODEL_NAMES.assessment),
+    conversation: model(connection, MODEL_NAMES.conversation),
+    message: model(connection, MODEL_NAMES.message),
+    notification: model(connection, MODEL_NAMES.notification),
+    notificationInbox: model(connection, MODEL_NAMES.notificationInbox),
+    pushDevice: model(connection, MODEL_NAMES.pushDevice),
+    plan: model(connection, MODEL_NAMES.plan),
+    article: model(connection, MODEL_NAMES.article),
+    articleCategory: model(connection, MODEL_NAMES.articleCategory),
+    news: model(connection, MODEL_NAMES.news),
+    course: model(connection, MODEL_NAMES.course),
+    guide: model(connection, MODEL_NAMES.guide),
+    schedule: model(connection, MODEL_NAMES.schedule),
+    states: model(connection, MODEL_NAMES.states),
+    contact: model(connection, MODEL_NAMES.contact)
+  }
+
+  Object.values(models).forEach((adminModel) => {
+    Object.values(adminModel.schema.paths).forEach((schemaPath) => {
+      const path = schemaPath as typeof schemaPath & {
+        caster?: unknown
+        embeddedSchemaType?: unknown
+        instance?: string
+      }
+      if (path.instance === 'Array' && !path.caster && path.embeddedSchemaType) {
+        path.caster = path.embeddedSchemaType
+      }
+    })
   })
-})
 
-export const adminResources = [
-  resource(userModel, 'Accounts'),
-  resource(adminModel, 'Accounts'),
-  resource(staffModel, 'Accounts'),
-  resource(accountTokenModel, 'Auth', {
-    properties: {
-      password: hiddenSecret,
-      fcmToken: hiddenSecret
-    }
-  }),
-  resource(refreshTokenModel, 'Auth', {
-    properties: {
-      token: hiddenSecret
-    }
-  }),
-  resource(accountRoleModel, 'Auth'),
-  resource(accountStatusModel, 'Auth'),
+  return [
+    resource(models.user, 'Accounts'),
+    resource(models.admin, 'Accounts'),
+    resource(models.staff, 'Accounts'),
+    resource(models.accountToken, 'Auth', {
+      properties: {
+        password: hiddenSecret,
+        fcmToken: hiddenSecret
+      }
+    }),
+    resource(models.refreshToken, 'Auth', {
+      properties: {
+        token: hiddenSecret
+      }
+    }),
+    resource(models.accountRole, 'Auth'),
+    resource(models.accountStatus, 'Auth'),
 
-  resource(clientModel, 'People'),
-  resource(trainerModel, 'People'),
+    resource(models.client, 'People'),
+    resource(models.trainer, 'People'),
 
-  resource(orgModel, 'Organizations'),
-  resource(orgBranchModel, 'Organizations'),
-  resource(orgCategoryModel, 'Organizations'),
+    resource(models.org, 'Organizations'),
+    resource(models.orgBranch, 'Organizations'),
+    resource(models.orgCategory, 'Organizations'),
 
-  resource(workoutSessionModel, 'Workout'),
-  resource(exerciseModel, 'Workout'),
-  resource(equipmentModel, 'Workout'),
-  resource(exerciseGoalModel, 'Workout'),
-  resource(exerciseLevelModel, 'Workout'),
-  resource(exerciseCategoriesModel, 'Workout'),
-  resource(muscleModel, 'Workout'),
-  resource(muscleCategoriesModel, 'Workout'),
+    resource(models.workoutSession, 'Workout'),
+    resource(models.exercise, 'Workout'),
+    resource(models.equipment, 'Workout'),
+    resource(models.exerciseGoal, 'Workout'),
+    resource(models.exerciseLevel, 'Workout'),
+    resource(models.exerciseCategory, 'Workout'),
+    resource(models.muscle, 'Workout'),
+    resource(models.muscleCategory, 'Workout'),
 
-  resource(assessmentModel, 'Assessment'),
+    resource(models.assessment, 'Assessment'),
 
-  resource(conversationModel, 'Chat'),
-  resource(messageModel, 'Chat'),
+    resource(models.conversation, 'Chat'),
+    resource(models.message, 'Chat'),
 
-  resource(notifyModel, 'Notifications'),
-  resource(notificationInboxModel, 'Notifications'),
-  resource(pushDeviceModel, 'Notifications', {
-    properties: {
-      token: hiddenSecret
-    }
-  }),
+    resource(models.notification, 'Notifications'),
+    resource(models.notificationInbox, 'Notifications'),
+    resource(models.pushDevice, 'Notifications', {
+      properties: {
+        token: hiddenSecret
+      }
+    }),
 
-  resource(planModel, 'Content'),
-  resource(articleModel, 'Content'),
-  resource(articleCategoriesModel, 'Content'),
-  resource(newsModel, 'Content'),
-  resource(courseModel, 'Content'),
-  resource(guideModel, 'Content'),
-  resource(scheduleModel, 'Content'),
-  resource(statesModel, 'Content'),
-  resource(contactModel, 'Content')
-]
+    resource(models.plan, 'Content'),
+    resource(models.article, 'Content'),
+    resource(models.articleCategory, 'Content'),
+    resource(models.news, 'Content'),
+    resource(models.course, 'Content'),
+    resource(models.guide, 'Content'),
+    resource(models.schedule, 'Content'),
+    resource(models.states, 'Content'),
+    resource(models.contact, 'Content')
+  ]
+}

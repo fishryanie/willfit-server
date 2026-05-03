@@ -1,2 +1,3 @@
 export const EXPIRES_TOKEN = '30d'
 export const EXPIRES_REFRESH_TOKEN = 259200
+export const UPLOAD_MAX_IMAGE_SIZE_BYTES = Number(process.env.UPLOAD_MAX_IMAGE_SIZE_BYTES) || 5 * 1024 * 1024

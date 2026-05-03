@@ -1,12 +1,16 @@
-import mongoose, { Schema } from 'mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Types } from 'mongoose'
 
-const staffSchema = new Schema<IStaff>(
-  {
-    userId: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'user' },
-    organizationId: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'organization' },
-    memberId: { type: String, required: false, default: '' }
-  },
-  { timestamps: true }
-)
+@Schema({ timestamps: true })
+export class Staff implements IStaff {
+  @Prop({ type: Types.ObjectId, required: true, ref: 'user' })
+  userId!: Types.ObjectId
 
-export const staffModel = mongoose.model('data_staff', staffSchema)
+  @Prop({ type: Types.ObjectId, required: true, ref: 'organization' })
+  organizationId!: Types.ObjectId
+
+  @Prop({ type: String, required: false, default: '' })
+  memberId!: string
+}
+
+export const staffSchema = SchemaFactory.createForClass(Staff)

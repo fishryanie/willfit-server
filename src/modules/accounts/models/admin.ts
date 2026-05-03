@@ -1,10 +1,10 @@
-import mongoose, { Schema } from 'mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Types } from 'mongoose'
 
-const adminSchema = new Schema<IAdmin>(
-  {
-    userId: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'user' }
-  },
-  { timestamps: true }
-)
+@Schema({ timestamps: true })
+export class Admin implements IAdmin {
+  @Prop({ type: Types.ObjectId, required: true, ref: 'user' })
+  userId!: Types.ObjectId
+}
 
-export const adminModel = mongoose.model('data_admin', adminSchema)
+export const adminSchema = SchemaFactory.createForClass(Admin)
