@@ -1,0 +1,44 @@
+[
+  {
+    "_id": { "$oid": "60f2c3c3c3c3c3c3c3c3c301" },
+    "name_en": "Chest",
+    "name_vi": "Ngực",
+    "icon_url": "https://example.com/chest-icon.png",
+    "order": 1
+  },
+  {
+    "_id": { "$oid": "60f2c3c3c3c3c3c3c3c3c302" },
+    "name_en": "Back",
+    "name_vi": "Lưng / Xô",
+    "icon_url": "https://example.com/back-icon.png",
+    "order": 2
+  },
+  {
+    "_id": { "$oid": "60f2c3c3c3c3c3c3c3c3c303" },
+    "name_en": "Shoulders",
+    "name_vi": "Vai",
+    "icon_url": "https://example.com/shoulders-icon.png",
+    "order": 3
+  },
+  {
+    "_id": { "$oid": "60f2c3c3c3c3c3c3c3c3c304" },
+    "name_en": "Arms",
+    "name_vi": "Tay",
+    "icon_url": "https://example.com/arms-icon.png",
+    "order": 4
+  },
+  {
+    "_id": { "$oid": "60f2c3c3c3c3c3c3c3c3c305" },
+    "name_en": "Legs",
+    "name_vi": "Chân",
+    "icon_url": "https://example.com/legs-icon.png",
+    "order": 5
+  },
+  {
+    "_id": { "$oid": "60f2c3c3c3c3c3c3c3c3c307" },
+    "name_en": "Abs",
+    "name_vi": "Bụng",
+    "icon_url": "https://example.com/abs-icon.png",
+    "order": 6
+  }
+]

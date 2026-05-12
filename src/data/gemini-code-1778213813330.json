@@ -1,0 +1,1545 @@
+[
+  {
+    "name": "Barbell Bench Press",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "70%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "20%" },
+        { "name": "Triceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/barbell-bench-press.jpg"
+  },
+  {
+    "name": "Incline Barbell Bench Press",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Upper Pectoralis Major", "ratio": "65%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "25%" },
+        { "name": "Triceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/incline-barbell-bench.jpg"
+  },
+  {
+    "name": "Decline Barbell Bench Press",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Lower Pectoralis Major", "ratio": "75%" },
+      "secondary": [
+        { "name": "Triceps Brachii", "ratio": "15%" },
+        { "name": "Anterior Deltoid", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/decline-bench-press.jpg"
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "75%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "15%" },
+        { "name": "Triceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-bench-press.jpg"
+  },
+  {
+    "name": "Incline Dumbbell Press",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Upper Pectoralis Major", "ratio": "70%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "20%" },
+        { "name": "Triceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/incline-dumbbell-press.jpg"
+  },
+  {
+    "name": "Dumbbell Fly",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "85%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "10%" },
+        { "name": "Biceps Brachii (Stabilizing)", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-fly.jpg"
+  },
+  {
+    "name": "Incline Dumbbell Fly",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Upper Pectoralis Major", "ratio": "85%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/incline-dumbbell-fly.jpg"
+  },
+  {
+    "name": "Cable Crossover",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "90%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/cable-crossover.jpg"
+  },
+  {
+    "name": "Pec Deck Machine Fly",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "95%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/pec-deck.jpg"
+  },
+  {
+    "name": "Machine Chest Press",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "75%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "15%" },
+        { "name": "Triceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/machine-chest-press.jpg"
+  },
+  {
+    "name": "Push-up",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "60%" },
+      "secondary": [
+        { "name": "Triceps Brachii", "ratio": "20%" },
+        { "name": "Anterior Deltoid", "ratio": "15%" },
+        { "name": "Core", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Endurance", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/push-up.jpg"
+  },
+  {
+    "name": "Chest Dips",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Lower Pectoralis Major", "ratio": "65%" },
+      "secondary": [
+        { "name": "Triceps Brachii", "ratio": "25%" },
+        { "name": "Anterior Deltoid", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/chest-dips.jpg"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "muscle": {
+      "group": "Chest",
+      "primary": { "name": "Pectoralis Major", "ratio": "60%" },
+      "secondary": [
+        { "name": "Latissimus Dorsi", "ratio": "30%" },
+        { "name": "Triceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-pullover.jpg"
+  },
+  {
+    "name": "Pull-up",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "60%" },
+      "secondary": [
+        { "name": "Biceps Brachii", "ratio": "20%" },
+        { "name": "Rhomboids", "ratio": "10%" },
+        { "name": "Lower Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/pull-up.jpg"
+  },
+  {
+    "name": "Chin-up",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "50%" },
+      "secondary": [
+        { "name": "Biceps Brachii", "ratio": "40%" },
+        { "name": "Rhomboids", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/chin-up.jpg"
+  },
+  {
+    "name": "Lat Pulldown",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "70%" },
+      "secondary": [
+        { "name": "Biceps Brachii", "ratio": "15%" },
+        { "name": "Rhomboids", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/lat-pulldown.jpg"
+  },
+  {
+    "name": "Close-Grip Lat Pulldown",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "65%" },
+      "secondary": [
+        { "name": "Biceps Brachii", "ratio": "25%" },
+        { "name": "Rhomboids", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/close-grip-pulldown.jpg"
+  },
+  {
+    "name": "Straight-Arm Pulldown",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "90%" },
+      "secondary": [
+        { "name": "Triceps Long Head", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Isolation"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/straight-arm-pulldown.jpg"
+  },
+  {
+    "name": "Barbell Bent-Over Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "50%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "15%" },
+        { "name": "Trapezius", "ratio": "15%" },
+        { "name": "Erector Spinae", "ratio": "10%" },
+        { "name": "Biceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/barbell-row.jpg"
+  },
+  {
+    "name": "Pendlay Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "50%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "20%" },
+        { "name": "Trapezius", "ratio": "20%" },
+        { "name": "Erector Spinae", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Power", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/pendlay-row.jpg"
+  },
+  {
+    "name": "Dumbbell Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "60%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "15%" },
+        { "name": "Biceps Brachii", "ratio": "15%" },
+        { "name": "Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-row.jpg"
+  },
+  {
+    "name": "Seated Cable Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "55%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "25%" },
+        { "name": "Trapezius", "ratio": "10%" },
+        { "name": "Biceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/seated-cable-row.jpg"
+  },
+  {
+    "name": "T-Bar Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "50%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "20%" },
+        { "name": "Trapezius", "ratio": "20%" },
+        { "name": "Biceps Brachii", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/t-bar-row.jpg"
+  },
+  {
+    "name": "Meadows Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "60%" },
+      "secondary": [
+        { "name": "Posterior Deltoid", "ratio": "20%" },
+        { "name": "Rhomboids", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/meadows-row.jpg"
+  },
+  {
+    "name": "Inverted Row",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Latissimus Dorsi", "ratio": "50%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "25%" },
+        { "name": "Biceps Brachii", "ratio": "15%" },
+        { "name": "Core", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Endurance", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/inverted-row.jpg"
+  },
+  {
+    "name": "Deadlift",
+    "muscle": {
+      "group": "Back & Legs",
+      "primary": { "name": "Erector Spinae", "ratio": "40%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "30%" },
+        { "name": "Hamstrings", "ratio": "20%" },
+        { "name": "Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Power"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/deadlift.jpg"
+  },
+  {
+    "name": "Rack Pull",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Erector Spinae", "ratio": "50%" },
+      "secondary": [
+        { "name": "Trapezius", "ratio": "30%" },
+        { "name": "Gluteus Maximus", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Strength", "Overload"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/rack-pull.jpg"
+  },
+  {
+    "name": "Back Extension",
+    "muscle": {
+      "group": "Back",
+      "primary": { "name": "Erector Spinae", "ratio": "70%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "20%" },
+        { "name": "Hamstrings", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/back-extension.jpg"
+  },
+  {
+    "name": "Good Morning",
+    "muscle": {
+      "group": "Back & Legs",
+      "primary": { "name": "Erector Spinae", "ratio": "50%" },
+      "secondary": [
+        { "name": "Hamstrings", "ratio": "30%" },
+        { "name": "Gluteus Maximus", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/good-morning.jpg"
+  },
+  {
+    "name": "Overhead Press",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Anterior Deltoid", "ratio": "60%" },
+      "secondary": [
+        { "name": "Lateral Deltoid", "ratio": "15%" },
+        { "name": "Triceps Brachii", "ratio": "15%" },
+        { "name": "Upper Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/overhead-press.jpg"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Anterior Deltoid", "ratio": "65%" },
+      "secondary": [
+        { "name": "Lateral Deltoid", "ratio": "20%" },
+        { "name": "Triceps Brachii", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-shoulder-press.jpg"
+  },
+  {
+    "name": "Arnold Press",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Anterior Deltoid", "ratio": "50%" },
+      "secondary": [
+        { "name": "Lateral Deltoid", "ratio": "30%" },
+        { "name": "Triceps Brachii", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/arnold-press.jpg"
+  },
+  {
+    "name": "Push Press",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Anterior Deltoid", "ratio": "50%" },
+      "secondary": [
+        { "name": "Legs (Drive)", "ratio": "30%" },
+        { "name": "Triceps Brachii", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Power", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/push-press.jpg"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Lateral Deltoid", "ratio": "80%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "10%" },
+        { "name": "Upper Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/lateral-raise.jpg"
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Lateral Deltoid", "ratio": "85%" },
+      "secondary": [
+        { "name": "Upper Trapezius", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/cable-lateral-raise.jpg"
+  },
+  {
+    "name": "Machine Lateral Raise",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Lateral Deltoid", "ratio": "90%" },
+      "secondary": [
+        { "name": "Upper Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/machine-lateral-raise.jpg"
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Anterior Deltoid", "ratio": "85%" },
+      "secondary": [
+        { "name": "Pectoralis Major (Upper)", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/front-raise.jpg"
+  },
+  {
+    "name": "Cable Front Raise",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Anterior Deltoid", "ratio": "90%" },
+      "secondary": [
+        { "name": "Pectoralis Major (Upper)", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/cable-front-raise.jpg"
+  },
+  {
+    "name": "Reverse Pec Deck (Rear Delt Fly)",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Posterior Deltoid", "ratio": "80%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "10%" },
+        { "name": "Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/reverse-pec-deck.jpg"
+  },
+  {
+    "name": "Bent-Over Dumbbell Rear Delt Raise",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Posterior Deltoid", "ratio": "75%" },
+      "secondary": [
+        { "name": "Rhomboids", "ratio": "15%" },
+        { "name": "Trapezius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/bent-over-rear-delt.jpg"
+  },
+  {
+    "name": "Face Pull",
+    "muscle": {
+      "group": "Shoulders",
+      "primary": { "name": "Posterior Deltoid", "ratio": "60%" },
+      "secondary": [
+        { "name": "Rotator Cuff", "ratio": "20%" },
+        { "name": "Trapezius", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Prehab"],
+    "mechanic": "Compound",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/face-pull.jpg"
+  },
+  {
+    "name": "Upright Row",
+    "muscle": {
+      "group": "Shoulders & Traps",
+      "primary": { "name": "Lateral Deltoid", "ratio": "50%" },
+      "secondary": [
+        { "name": "Upper Trapezius", "ratio": "30%" },
+        { "name": "Biceps Brachii", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/upright-row.jpg"
+  },
+  {
+    "name": "Barbell Shrug",
+    "muscle": {
+      "group": "Traps",
+      "primary": { "name": "Upper Trapezius", "ratio": "90%" },
+      "secondary": [
+        { "name": "Levator Scapulae", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Isolation",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/barbell-shrug.jpg"
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "muscle": {
+      "group": "Traps",
+      "primary": { "name": "Upper Trapezius", "ratio": "95%" },
+      "secondary": [
+        { "name": "Levator Scapulae", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-shrug.jpg"
+  },
+  {
+    "name": "Barbell Back Squat",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "60%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "25%" },
+        { "name": "Hamstrings", "ratio": "10%" },
+        { "name": "Erector Spinae", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/back-squat.jpg"
+  },
+  {
+    "name": "Front Squat",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "75%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "15%" },
+        { "name": "Core", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/front-squat.jpg"
+  },
+  {
+    "name": "Goblet Squat",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "70%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "20%" },
+        { "name": "Core", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Mobility"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/goblet-squat.jpg"
+  },
+  {
+    "name": "Leg Press",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "70%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "20%" },
+        { "name": "Hamstrings", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/leg-press.jpg"
+  },
+  {
+    "name": "Hack Squat",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "80%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/hack-squat.jpg"
+  },
+  {
+    "name": "Leg Extension",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "100%" },
+      "secondary": []
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/leg-extension.jpg"
+  },
+  {
+    "name": "Bulgarian Split Squat",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "60%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "30%" },
+        { "name": "Hamstrings", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Balance"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/bulgarian-split-squat.jpg"
+  },
+  {
+    "name": "Walking Lunges",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "50%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "40%" },
+        { "name": "Hamstrings", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Endurance"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/walking-lunges.jpg"
+  },
+  {
+    "name": "Step-up",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "60%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "40%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Balance"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/step-up.jpg"
+  },
+  {
+    "name": "Sissy Squat",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "95%" },
+      "secondary": [
+        { "name": "Core", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Isolation",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/sissy-squat.jpg"
+  },
+  {
+    "name": "Romanian Deadlift (RDL)",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Hamstrings", "ratio": "65%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "25%" },
+        { "name": "Erector Spinae", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/rdl.jpg"
+  },
+  {
+    "name": "Stiff-Legged Deadlift",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Hamstrings", "ratio": "80%" },
+      "secondary": [
+        { "name": "Erector Spinae", "ratio": "10%" },
+        { "name": "Gluteus Maximus", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/stiff-leg-deadlift.jpg"
+  },
+  {
+    "name": "Seated Leg Curl",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Hamstrings", "ratio": "100%" },
+      "secondary": []
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/seated-leg-curl.jpg"
+  },
+  {
+    "name": "Lying Leg Curl",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Hamstrings", "ratio": "90%" },
+      "secondary": [
+        { "name": "Calves", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/lying-leg-curl.jpg"
+  },
+  {
+    "name": "Hip Thrust",
+    "muscle": {
+      "group": "Glutes",
+      "primary": { "name": "Gluteus Maximus", "ratio": "80%" },
+      "secondary": [
+        { "name": "Hamstrings", "ratio": "10%" },
+        { "name": "Quadriceps", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/hip-thrust.jpg"
+  },
+  {
+    "name": "Glute Bridge",
+    "muscle": {
+      "group": "Glutes",
+      "primary": { "name": "Gluteus Maximus", "ratio": "85%" },
+      "secondary": [
+        { "name": "Hamstrings", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Activation"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/glute-bridge.jpg"
+  },
+  {
+    "name": "Cable Pull-Through",
+    "muscle": {
+      "group": "Glutes & Hamstrings",
+      "primary": { "name": "Gluteus Maximus", "ratio": "60%" },
+      "secondary": [
+        { "name": "Hamstrings", "ratio": "40%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/cable-pull-through.jpg"
+  },
+  {
+    "name": "Cable Glute Kickback",
+    "muscle": {
+      "group": "Glutes",
+      "primary": { "name": "Gluteus Maximus", "ratio": "90%" },
+      "secondary": [
+        { "name": "Hamstrings", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/glute-kickback.jpg"
+  },
+  {
+    "name": "Hip Abduction Machine",
+    "muscle": {
+      "group": "Glutes",
+      "primary": { "name": "Gluteus Medius", "ratio": "90%" },
+      "secondary": [
+        { "name": "Gluteus Minimus", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/hip-abduction.jpg"
+  },
+  {
+    "name": "Standing Calf Raise",
+    "muscle": {
+      "group": "Calves",
+      "primary": { "name": "Gastrocnemius", "ratio": "80%" },
+      "secondary": [
+        { "name": "Soleus", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/standing-calf-raise.jpg"
+  },
+  {
+    "name": "Seated Calf Raise",
+    "muscle": {
+      "group": "Calves",
+      "primary": { "name": "Soleus", "ratio": "90%" },
+      "secondary": [
+        { "name": "Gastrocnemius", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/seated-calf-raise.jpg"
+  },
+  {
+    "name": "Leg Press Calf Raise",
+    "muscle": {
+      "group": "Calves",
+      "primary": { "name": "Gastrocnemius", "ratio": "85%" },
+      "secondary": [
+        { "name": "Soleus", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Machine",
+    "image_url": "https://example.com/images/leg-press-calf-raise.jpg"
+  },
+  {
+    "name": "Barbell Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Biceps Brachii", "ratio": "85%" },
+      "secondary": [
+        { "name": "Brachialis", "ratio": "10%" },
+        { "name": "Forearm Flexors", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/barbell-curl.jpg"
+  },
+  {
+    "name": "Dumbbell Alternate Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Biceps Brachii", "ratio": "90%" },
+      "secondary": [
+        { "name": "Brachialis", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/dumbbell-curl.jpg"
+  },
+  {
+    "name": "Hammer Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Brachioradialis", "ratio": "50%" },
+      "secondary": [
+        { "name": "Brachialis", "ratio": "30%" },
+        { "name": "Biceps Brachii", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/hammer-curl.jpg"
+  },
+  {
+    "name": "Preacher Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Biceps Brachii (Short Head)", "ratio": "95%" },
+      "secondary": [
+        { "name": "Brachialis", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "EZ-Bar",
+    "image_url": "https://example.com/images/preacher-curl.jpg"
+  },
+  {
+    "name": "Concentration Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Biceps Brachii", "ratio": "100%" },
+      "secondary": []
+    },
+    "training_goal": ["Hypertrophy", "Peak"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/concentration-curl.jpg"
+  },
+  {
+    "name": "Cable Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Biceps Brachii", "ratio": "90%" },
+      "secondary": [
+        { "name": "Brachialis", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Constant Tension"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/cable-curl.jpg"
+  },
+  {
+    "name": "Reverse Barbell Curl",
+    "muscle": {
+      "group": "Arms & Forearms",
+      "primary": { "name": "Brachioradialis", "ratio": "60%" },
+      "secondary": [
+        { "name": "Biceps Brachii", "ratio": "20%" },
+        { "name": "Forearm Extensors", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/reverse-curl.jpg"
+  },
+  {
+    "name": "Spider Curl",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Biceps Brachii (Short Head)", "ratio": "90%" },
+      "secondary": [
+        { "name": "Brachialis", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/spider-curl.jpg"
+  },
+  {
+    "name": "Tricep Pushdown",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii", "ratio": "95%" },
+      "secondary": [
+        { "name": "Anconeus", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/tricep-pushdown.jpg"
+  },
+  {
+    "name": "Rope Tricep Pushdown",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii (Lateral Head)", "ratio": "90%" },
+      "secondary": [
+        { "name": "Anconeus", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/rope-pushdown.jpg"
+  },
+  {
+    "name": "Skullcrusher",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii", "ratio": "95%" },
+      "secondary": [
+        { "name": "Anconeus", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "EZ-Bar",
+    "image_url": "https://example.com/images/skullcrusher.jpg"
+  },
+  {
+    "name": "Overhead Tricep Extension",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii (Long Head)", "ratio": "90%" },
+      "secondary": [
+        { "name": "Anconeus", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Stretch"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/overhead-tricep-extension.jpg"
+  },
+  {
+    "name": "Close-Grip Bench Press",
+    "muscle": {
+      "group": "Chest & Arms",
+      "primary": { "name": "Triceps Brachii", "ratio": "60%" },
+      "secondary": [
+        { "name": "Pectoralis Major (Inner)", "ratio": "25%" },
+        { "name": "Anterior Deltoid", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/close-grip-bench.jpg"
+  },
+  {
+    "name": "Bench Dips",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii", "ratio": "70%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "15%" },
+        { "name": "Pectoralis Major", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/bench-dips.jpg"
+  },
+  {
+    "name": "Tricep Kickback",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii", "ratio": "100%" },
+      "secondary": []
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/tricep-kickback.jpg"
+  },
+  {
+    "name": "JM Press",
+    "muscle": {
+      "group": "Arms",
+      "primary": { "name": "Triceps Brachii", "ratio": "85%" },
+      "secondary": [
+        { "name": "Pectoralis Major", "ratio": "10%" },
+        { "name": "Anterior Deltoid", "ratio": "5%" }
+      ]
+    },
+    "training_goal": ["Strength", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/jm-press.jpg"
+  },
+  {
+    "name": "Wrist Curl",
+    "muscle": {
+      "group": "Forearms",
+      "primary": { "name": "Forearm Flexors", "ratio": "100%" },
+      "secondary": []
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/wrist-curl.jpg"
+  },
+  {
+    "name": "Reverse Wrist Curl",
+    "muscle": {
+      "group": "Forearms",
+      "primary": { "name": "Forearm Extensors", "ratio": "100%" },
+      "secondary": []
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/reverse-wrist-curl.jpg"
+  },
+  {
+    "name": "Farmer's Walk",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Forearms / Grip", "ratio": "40%" },
+      "secondary": [
+        { "name": "Trapezius", "ratio": "30%" },
+        { "name": "Core", "ratio": "20%" },
+        { "name": "Legs", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Endurance"],
+    "mechanic": "Compound",
+    "equipment": "Dumbbell",
+    "image_url": "https://example.com/images/farmers-walk.jpg"
+  },
+  {
+    "name": "Standard Crunch",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Rectus Abdominis", "ratio": "90%" },
+      "secondary": [
+        { "name": "Obliques", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/crunch.jpg"
+  },
+  {
+    "name": "Plank",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Rectus Abdominis", "ratio": "50%" },
+      "secondary": [
+        { "name": "Transverse Abdominis", "ratio": "30%" },
+        { "name": "Shoulders", "ratio": "10%" },
+        { "name": "Lower Back", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Endurance", "Stability"],
+    "mechanic": "Compound (Isometric)",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/plank.jpg"
+  },
+  {
+    "name": "Cable Crunch",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Rectus Abdominis", "ratio": "90%" },
+      "secondary": [
+        { "name": "Obliques", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Isolation",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/cable-crunch.jpg"
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Lower Rectus Abdominis", "ratio": "70%" },
+      "secondary": [
+        { "name": "Hip Flexors", "ratio": "20%" },
+        { "name": "Obliques", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/hanging-leg-raise.jpg"
+  },
+  {
+    "name": "Russian Twist",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Obliques", "ratio": "70%" },
+      "secondary": [
+        { "name": "Rectus Abdominis", "ratio": "30%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy", "Endurance"],
+    "mechanic": "Isolation",
+    "equipment": "Medicine Ball",
+    "image_url": "https://example.com/images/russian-twist.jpg"
+  },
+  {
+    "name": "Ab Wheel Rollout",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Rectus Abdominis", "ratio": "70%" },
+      "secondary": [
+        { "name": "Transverse Abdominis", "ratio": "15%" },
+        { "name": "Lats", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Strength", "Stability"],
+    "mechanic": "Compound",
+    "equipment": "Ab Wheel",
+    "image_url": "https://example.com/images/ab-wheel.jpg"
+  },
+  {
+    "name": "Bicycle Crunch",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Rectus Abdominis", "ratio": "60%" },
+      "secondary": [
+        { "name": "Obliques", "ratio": "40%" }
+      ]
+    },
+    "training_goal": ["Endurance", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/bicycle-crunch.jpg"
+  },
+  {
+    "name": "Woodchopper",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Obliques", "ratio": "75%" },
+      "secondary": [
+        { "name": "Rectus Abdominis", "ratio": "15%" },
+        { "name": "Shoulders", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Power", "Hypertrophy"],
+    "mechanic": "Compound",
+    "equipment": "Cable",
+    "image_url": "https://example.com/images/woodchopper.jpg"
+  },
+  {
+    "name": "Dragon Flag",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Rectus Abdominis", "ratio": "80%" },
+      "secondary": [
+        { "name": "Transverse Abdominis", "ratio": "10%" },
+        { "name": "Lower Back", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Strength", "Control"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/dragon-flag.jpg"
+  },
+  {
+    "name": "Lying Leg Raise",
+    "muscle": {
+      "group": "Abs & Core",
+      "primary": { "name": "Lower Rectus Abdominis", "ratio": "60%" },
+      "secondary": [
+        { "name": "Hip Flexors", "ratio": "40%" }
+      ]
+    },
+    "training_goal": ["Hypertrophy"],
+    "mechanic": "Isolation",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/lying-leg-raise.jpg"
+  },
+  {
+    "name": "Kettlebell Swing",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Gluteus Maximus", "ratio": "50%" },
+      "secondary": [
+        { "name": "Hamstrings", "ratio": "30%" },
+        { "name": "Erector Spinae", "ratio": "10%" },
+        { "name": "Core", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Power", "Endurance"],
+    "mechanic": "Compound",
+    "equipment": "Kettlebell",
+    "image_url": "https://example.com/images/kettlebell-swing.jpg"
+  },
+  {
+    "name": "Power Clean",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Hamstrings / Glutes", "ratio": "40%" },
+      "secondary": [
+        { "name": "Trapezius", "ratio": "25%" },
+        { "name": "Quadriceps", "ratio": "20%" },
+        { "name": "Lower Back", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Power", "Speed"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/power-clean.jpg"
+  },
+  {
+    "name": "Snatch",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Glutes / Hamstrings", "ratio": "40%" },
+      "secondary": [
+        { "name": "Shoulders", "ratio": "20%" },
+        { "name": "Trapezius", "ratio": "20%" },
+        { "name": "Quadriceps", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Power", "Speed"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/snatch.jpg"
+  },
+  {
+    "name": "Thruster",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Quadriceps", "ratio": "40%" },
+      "secondary": [
+        { "name": "Anterior Deltoid", "ratio": "30%" },
+        { "name": "Gluteus Maximus", "ratio": "20%" },
+        { "name": "Triceps", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Conditioning", "Power"],
+    "mechanic": "Compound",
+    "equipment": "Barbell",
+    "image_url": "https://example.com/images/thruster.jpg"
+  },
+  {
+    "name": "Box Jump",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "50%" },
+      "secondary": [
+        { "name": "Gluteus Maximus", "ratio": "30%" },
+        { "name": "Calves", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Power", "Agility"],
+    "mechanic": "Compound",
+    "equipment": "Plyo Box",
+    "image_url": "https://example.com/images/box-jump.jpg"
+  },
+  {
+    "name": "Medicine Ball Slam",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Lats", "ratio": "40%" },
+      "secondary": [
+        { "name": "Core", "ratio": "30%" },
+        { "name": "Shoulders", "ratio": "15%" },
+        { "name": "Triceps", "ratio": "15%" }
+      ]
+    },
+    "training_goal": ["Power", "Conditioning"],
+    "mechanic": "Compound",
+    "equipment": "Medicine Ball",
+    "image_url": "https://example.com/images/medicine-ball-slam.jpg"
+  },
+  {
+    "name": "Battle Ropes",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Shoulders", "ratio": "50%" },
+      "secondary": [
+        { "name": "Arms", "ratio": "30%" },
+        { "name": "Core", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Conditioning", "Endurance"],
+    "mechanic": "Compound",
+    "equipment": "Battle Ropes",
+    "image_url": "https://example.com/images/battle-ropes.jpg"
+  },
+  {
+    "name": "Burpee",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Quadriceps", "ratio": "40%" },
+      "secondary": [
+        { "name": "Chest", "ratio": "30%" },
+        { "name": "Core", "ratio": "20%" },
+        { "name": "Shoulders", "ratio": "10%" }
+      ]
+    },
+    "training_goal": ["Conditioning", "Endurance"],
+    "mechanic": "Compound",
+    "equipment": "Bodyweight",
+    "image_url": "https://example.com/images/burpee.jpg"
+  },
+  {
+    "name": "Tire Flip",
+    "muscle": {
+      "group": "Full Body",
+      "primary": { "name": "Glutes / Hamstrings", "ratio": "50%" },
+      "secondary": [
+        { "name": "Back", "ratio": "30%" },
+        { "name": "Shoulders / Arms", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Power", "Strength"],
+    "mechanic": "Compound",
+    "equipment": "Tire",
+    "image_url": "https://example.com/images/tire-flip.jpg"
+  },
+  {
+    "name": "Sled Push",
+    "muscle": {
+      "group": "Legs",
+      "primary": { "name": "Quadriceps", "ratio": "60%" },
+      "secondary": [
+        { "name": "Calves", "ratio": "20%" },
+        { "name": "Glutes", "ratio": "20%" }
+      ]
+    },
+    "training_goal": ["Conditioning", "Power"],
+    "mechanic": "Compound",
+    "equipment": "Sled",
+    "image_url": "https://example.com/images/sled-push.jpg"
+  }
+]

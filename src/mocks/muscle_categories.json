@@ -1,43 +1,51 @@
-[{
-  "_id": {
-    "$oid": "67720a6703f02827b8673493"
+[
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673493"
+    },
+    "name": "Abs",
+    "description": "Exercises targeting the abdominal muscles."
   },
-  "name": "Abs",
-  "description": "Exercises targeting the abdominal muscles."
-},{
-  "_id": {
-    "$oid": "67720a6703f02827b8673494"
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673494"
+    },
+    "name": "Chest",
+    "description": "Exercises targeting the chest muscles."
   },
-  "name": "Chest",
-  "description": "Exercises targeting the chest muscles."
-},{
-  "_id": {
-    "$oid": "67720a6703f02827b8673492"
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673492"
+    },
+    "name": "Legs",
+    "description": "Exercises targeting the leg muscles."
   },
-  "name": "Legs",
-  "description": "Exercises targeting the leg muscles."
-},{
-  "_id": {
-    "$oid": "67720a6703f02827b8673491"
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673491"
+    },
+    "name": "Arms",
+    "description": "Exercises targeting the arm muscles."
   },
-  "name": "Arms",
-  "description": "Exercises targeting the arm muscles."
-},{
-  "_id": {
-    "$oid": "67720a6703f02827b8673495"
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673495"
+    },
+    "name": "Back",
+    "description": "Exercises targeting the back muscles."
   },
-  "name": "Back",
-  "description": "Exercises targeting the back muscles."
-},{
-  "_id": {
-    "$oid": "67720a6703f02827b8673496"
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673496"
+    },
+    "name": "Shoulders",
+    "description": "Exercises targeting the shoulder muscles."
   },
-  "name": "Shoulders",
-  "description": "Exercises targeting the shoulder muscles."
-},{
-  "_id": {
-    "$oid": "67720a6703f02827b8673497"
-  },
-  "name": "Calves",
-  "description": "Exercises targeting the calf muscles."
-}]
+  {
+    "_id": {
+      "$oid": "67720a6703f02827b8673497"
+    },
+    "name": "Calves",
+    "description": "Exercises targeting the calf muscles."
+  }
+]
